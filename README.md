@@ -12,3 +12,6 @@ A 9V Stereo Splitter for 4 channels
 7. Input signals shall be buffered
 8. Volume controls for each channel shall  be independant and not subtract gain from the other channels.
   
+## Top level Design
+
+![](BlockDiagram.drawio.png)
