@@ -9,5 +9,6 @@ A 9V Stereo Splitter for 4 channels
 4. volume controls should be mounted in the front of the case
 5. External power input shall be 9V DC
 6. Internal power supply shall be +/-9V DC
-7. Volume controls for each channel shall  be independant and not subtract gain from the other channels.
+7. Input signals shall be buffered
+8. Volume controls for each channel shall  be independant and not subtract gain from the other channels.
   
