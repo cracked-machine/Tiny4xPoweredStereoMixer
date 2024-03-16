@@ -17,3 +17,11 @@ A Tiny form-factor 4-channel Stereo Mixer for use with TV/PC/Turntable/Amplifer
 ## Top level Design
 
 ![](BlockDiagram.drawio.png)
+
+## Power Stage Design
+
+Using [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf)
+
+|VREF|RFB1|RFB2|VOUT|
+|-|-|-|-|
+|-1.23v|10K|88.7k|VREF * (1 + (RFB2/RFB1)  = -12.14v|
