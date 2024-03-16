@@ -16,7 +16,7 @@ A Tiny form-factor 4-channel Stereo Mixer for use with TV/PC/Turntable/Amplifer
   
 ## Top level Design
 
-![](doc\design\BlockDiagram.drawio.png)
+![](doc/design/BlockDiagram.drawio.png)
 
 ## Power Stage Design
 
@@ -24,11 +24,11 @@ Using [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf)
 
 Reference design from the datasheet
 
-![](doc\design\12V_to_–5V_Inverting_Converter.PNG)
+![](doc/design/12V_to_–5V_Inverting_Converter.PNG)
 
 Application curve showing the output current vs the output voltage: For 12V out, the max output current would be 400mA.
 
-![](doc\design\ApplicationCurve-Max_Output_Current_vs_Output_Voltage_12V_to_–5V.png)
+![](doc/design/ApplicationCurve-Max_Output_Current_vs_Output_Voltage_12V_to_–5V.png)
 
 The output voltage can be adjusted using the negative feedback resistors RFB1 and RFB2:
 
@@ -38,8 +38,8 @@ The output voltage can be adjusted using the negative feedback resistors RFB1 an
 
 ## Schematics
 
-<object data="doc\design\Tiny4xPoweredStereoMixer.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="doc\design\Tiny4xPoweredStereoMixer.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="doc\design\Tiny4xPoweredStereoMixer.pdf">Download PDF</a>.</p>
+<object data="doc/design/Tiny4xPoweredStereoMixer.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="doc/design/Tiny4xPoweredStereoMixer.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="doc/design/Tiny4xPoweredStereoMixer.pdf">Download PDF</a>.</p>
     </embed>
 </object>
