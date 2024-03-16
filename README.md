@@ -38,7 +38,7 @@ The output voltage can be adjusted using the negative feedback resistors RFB1 an
 
 ## Schematics
 
-<object data="doc/design/Tiny4xPoweredStereoMixer.pdf" type="application/pdf" width="1000px" height="1000px">
+<object data="doc/design/Tiny4xPoweredStereoMixer.pdf" type="application/pdf" width="100%" height="1000px">
     <embed src="doc/design/Tiny4xPoweredStereoMixer.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="doc/design/Tiny4xPoweredStereoMixer.pdf">Download PDF</a>.</p>
     </embed>
