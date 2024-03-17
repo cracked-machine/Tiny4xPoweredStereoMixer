@@ -726,7 +726,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Dual_Separate") (at 166.37 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cb36886-264c-4548-bdce-727f1d928a31)
-    (property "Reference" "RV2" (at 163.83 50.8 0)
+    (property "Reference" "RV1" (at 163.83 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 163.83 53.34 0)
@@ -750,10 +750,10 @@
     (instances
       (project "Tiny4xPoweredStereoMixer"
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "RV2") (unit 1)
+          (reference "RV1") (unit 1)
         )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "RV1") (unit 1)
+          (reference "RV2") (unit 1)
         )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
           (reference "RV3") (unit 1)
@@ -1008,7 +1008,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Dual_Separate") (at 166.37 85.09 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f38ba6f8-a94c-4721-9f4c-787f6a7eb239)
-    (property "Reference" "RV2" (at 163.83 83.82 0)
+    (property "Reference" "RV1" (at 163.83 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 163.83 86.36 0)
@@ -1032,10 +1032,10 @@
     (instances
       (project "Tiny4xPoweredStereoMixer"
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "RV2") (unit 2)
+          (reference "RV1") (unit 2)
         )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "RV1") (unit 2)
+          (reference "RV2") (unit 2)
         )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
           (reference "RV3") (unit 2)
