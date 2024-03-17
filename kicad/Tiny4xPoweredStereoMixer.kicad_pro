@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|108918000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|d7c5420b-c0e4-4b40-948e-6924d083094c",
+        "silk_edge_clearance|118158000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|9ee78a4e-fb9f-457b-875b-dda9934a001b",
+        "silk_edge_clearance|128730000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|e4ef89af-0bb9-4351-871c-7cfcca418bf8",
+        "silk_edge_clearance|137970000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|b1d628ac-5b83-429b-960a-09ee48c4e17a",
+        "silk_edge_clearance|148415000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|39b9faff-3f87-43e7-b428-d7040e16e5d9",
+        "silk_edge_clearance|157655000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|a618aee1-5f7c-43d6-9be0-4249fd6a39a3",
+        "silk_edge_clearance|89190667|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|34095896-241d-4474-804f-e32b3fe46d05",
+        "silk_edge_clearance|98430667|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|d0e1fd50-44ea-4a43-aa2f-b064f18484d2"
+      ],
       "meta": {
         "version": 2
       },
@@ -476,7 +485,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../doc/design/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

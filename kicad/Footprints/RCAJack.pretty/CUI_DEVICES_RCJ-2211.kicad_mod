@@ -1,4 +1,4 @@
-(footprint "RCJ-22" (version 20221018) (generator pcbnew)
+(footprint "CUI_DEVICES_RCJ-2211" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 8.89 unlocked) (layer "F.SilkS")
@@ -32,4 +32,9 @@
   (pad "1" thru_hole circle (at 0 1.143) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 0425fb9a-cacb-4ca8-9a19-2edd03ed0f97))
   (pad "2" thru_hole circle (at -4.064 4.4196) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 329c747b-62d3-476a-8c57-871e2be2feb5))
   (pad "3" thru_hole circle (at 4.064 5.6642) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp b9f9bc9b-8572-4be0-9fd2-443e1129a693))
+  (model "${KIPRJMOD}/Footprints/RCAJack.pretty/CUI_DEVICES_RCJ-2211.step"
+    (offset (xyz 0 4.5 14.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
