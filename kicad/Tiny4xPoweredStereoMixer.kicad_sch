@@ -1400,7 +1400,7 @@
   (symbol (lib_id "Device:C") (at 80.01 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf50a794-d65e-4234-9f86-b3b4613182e1)
-    (property "Reference" "C7" (at 76.2 68.58 0)
+    (property "Reference" "C15" (at 76.2 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 76.2 71.12 0)
@@ -1425,18 +1425,6 @@
     (pin "2" (uuid 324396b1-5a98-47af-9baf-97039abe4c53))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "C7") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "C5") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "C11") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "C13") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
           (reference "C15") (unit 1)
         )
@@ -1592,7 +1580,7 @@
   (symbol (lib_id "Regulator_Switching:LM2611xMF") (at 114.3 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2de7885-e2c6-4707-a408-7a17e30a95c6)
-    (property "Reference" "U3" (at 114.3 55.88 0)
+    (property "Reference" "U6" (at 114.3 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2611AMF/NOPB " (at 114.3 58.42 0)
@@ -1617,9 +1605,6 @@
     (pin "5" (uuid 1d521edc-4cc8-4fa1-acf3-e248045b29de))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "U3") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
           (reference "U6") (unit 1)
         )

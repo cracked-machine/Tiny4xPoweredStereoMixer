@@ -761,9 +761,6 @@
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
           (reference "RV4") (unit 1)
         )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
-          (reference "RV1") (unit 1)
-        )
       )
     )
   )
@@ -1042,9 +1039,6 @@
         )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
           (reference "RV4") (unit 2)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
-          (reference "RV1") (unit 2)
         )
       )
     )

@@ -666,7 +666,7 @@
   (symbol (lib_id "Device:C") (at 78.74 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1abadad2-7f2c-41a4-a244-9c7dc38d8d37)
-    (property "Reference" "C2" (at 82.55 172.72 0)
+    (property "Reference" "C10" (at 82.55 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 82.55 175.26 0)
@@ -691,18 +691,6 @@
     (pin "2" (uuid d439566e-1b6d-4f73-947f-2b9b7d2bb185))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "C2") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "C8") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "C10") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "C12") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "C10") (unit 1)
         )
@@ -770,7 +758,7 @@
   (symbol (lib_id "power:-12V") (at 78.74 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45947946-55e0-4c6a-985d-115ef817dc38)
-    (property "Reference" "#PWR04" (at 78.74 165.1 0)
+    (property "Reference" "#PWR025" (at 78.74 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 78.74 162.56 0)
@@ -785,18 +773,6 @@
     (pin "1" (uuid 8dbe199d-c381-49c6-ba6e-310103d88b49))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR016") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR025") (unit 1)
         )
@@ -984,7 +960,7 @@
   (symbol (lib_id "Device:C") (at 66.04 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8039f050-8cc3-4544-a43f-d133ba588549)
-    (property "Reference" "C1" (at 69.85 172.72 0)
+    (property "Reference" "C9" (at 69.85 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 69.85 175.26 0)
@@ -1009,18 +985,6 @@
     (pin "2" (uuid df55fcf6-0c35-4e1b-915c-dbfab9d3881d))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "C1") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "C7") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "C9") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "C11") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "C9") (unit 1)
         )
@@ -1063,7 +1027,7 @@
   (symbol (lib_id "power:+12V") (at 66.04 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a280d1a3-6bf8-4f2e-a09d-58fd45f5e967)
-    (property "Reference" "#PWR03" (at 66.04 171.45 0)
+    (property "Reference" "#PWR023" (at 66.04 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 66.04 162.56 0)
@@ -1078,18 +1042,6 @@
     (pin "1" (uuid 2241a410-7f91-464e-ab0b-a5d7ee2b4dae))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR023") (unit 1)
         )
@@ -1266,7 +1218,7 @@
   (symbol (lib_id "power:GND") (at 72.39 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4e7fbbc-b733-4dfa-b41a-d60b4920700f)
-    (property "Reference" "#PWR05" (at 72.39 189.23 0)
+    (property "Reference" "#PWR024" (at 72.39 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 187.96 0)
@@ -1281,18 +1233,6 @@
     (pin "1" (uuid fc642f4f-9e92-4022-90c7-c706249db577))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR010") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR024") (unit 1)
         )
