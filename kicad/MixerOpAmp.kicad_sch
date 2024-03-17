@@ -552,7 +552,7 @@
     (uuid ff1c362d-a9b7-45b6-86c0-bdd76d3aa010)
   )
 
-  (hierarchical_label "ch4_left_mix_in" (shape input) (at 88.9 67.31 180) (fields_autoplaced)
+  (hierarchical_label "ch4_left_mix_in" (shape input) (at 88.9 40.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 00c75bbf-ae7c-46db-a19e-721d1845697b)
   )
@@ -560,15 +560,15 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0b509e75-cbda-4531-b611-3691156f22bf)
   )
-  (hierarchical_label "ch1_right_mix_in" (shape input) (at 88.9 100.33 180) (fields_autoplaced)
+  (hierarchical_label "ch1_right_mix_in" (shape input) (at 88.9 127 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 50e30cbc-3d6f-4467-9b80-c2c9e05ed296)
   )
-  (hierarchical_label "ch4_right_mix_in" (shape input) (at 88.9 127 180) (fields_autoplaced)
+  (hierarchical_label "ch4_right_mix_in" (shape input) (at 88.9 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 57e8fe7f-c843-4e40-8639-8e4f1ae2a1cc)
   )
-  (hierarchical_label "ch3_right_mix_in" (shape input) (at 88.9 118.11 180) (fields_autoplaced)
+  (hierarchical_label "ch3_right_mix_in" (shape input) (at 88.9 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5a3520d4-1afa-4bd5-9e02-3c0d00a66ff4)
   )
@@ -576,19 +576,19 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 804881db-d039-479c-99e7-d30040fd3739)
   )
-  (hierarchical_label "ch2_right_mix_in" (shape input) (at 88.9 109.22 180) (fields_autoplaced)
+  (hierarchical_label "ch2_right_mix_in" (shape input) (at 88.9 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 92b2c087-2760-4bd1-90d1-a1fd630f14b7)
   )
-  (hierarchical_label "ch3_left_mix_in" (shape input) (at 88.9 58.42 180) (fields_autoplaced)
+  (hierarchical_label "ch3_left_mix_in" (shape input) (at 88.9 49.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dd882701-204f-4119-b97c-534502fe49c9)
   )
-  (hierarchical_label "ch1_left_mix_in" (shape input) (at 88.9 40.64 180) (fields_autoplaced)
+  (hierarchical_label "ch1_left_mix_in" (shape input) (at 88.9 67.31 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f27503fa-5df0-4180-a73a-98fb74fc607e)
   )
-  (hierarchical_label "ch2_left_mix_in" (shape input) (at 88.9 49.53 180) (fields_autoplaced)
+  (hierarchical_label "ch2_left_mix_in" (shape input) (at 88.9 58.42 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f3178adf-86cc-4467-bcde-dc1b266e4e60)
   )
@@ -649,7 +649,7 @@
     (property "LCSC" "C17414" (at 97.79 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 67.31 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4ace966d-a77a-41ac-a702-84d2dccf9f45))
@@ -666,7 +666,7 @@
   (symbol (lib_id "Device:C") (at 78.74 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1abadad2-7f2c-41a4-a244-9c7dc38d8d37)
-    (property "Reference" "C2" (at 82.55 172.72 0)
+    (property "Reference" "C10" (at 82.55 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 82.55 175.26 0)
@@ -684,25 +684,13 @@
     (property "Notes" "X7R 25V" (at 78.74 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 78.74 173.99 0)
+    (property "Mouser" "791-0603B104J250CT" (at 78.74 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0598dd4b-593b-48c1-8ce5-0a2526a9cfa5))
     (pin "2" (uuid d439566e-1b6d-4f73-947f-2b9b7d2bb185))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "C2") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "C8") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "C10") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "C12") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "C10") (unit 1)
         )
@@ -753,7 +741,7 @@
     (property "LCSC" "C17414" (at 97.79 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 49.53 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 30b0bd48-7c1d-4e9f-91b4-ed83c6e8ebc2))
@@ -770,7 +758,7 @@
   (symbol (lib_id "power:-12V") (at 78.74 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45947946-55e0-4c6a-985d-115ef817dc38)
-    (property "Reference" "#PWR04" (at 78.74 165.1 0)
+    (property "Reference" "#PWR025" (at 78.74 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 78.74 162.56 0)
@@ -785,18 +773,6 @@
     (pin "1" (uuid 8dbe199d-c381-49c6-ba6e-310103d88b49))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR016") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR025") (unit 1)
         )
@@ -935,7 +911,7 @@
     (property "LCSC" "C17414" (at 158.75 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 158.75 54.61 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 158.75 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dccd7408-e679-40bf-a5ff-f3a4ce1e13f3))
@@ -967,7 +943,7 @@
     (property "LCSC" "C17414" (at 97.79 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 127 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 20c5a882-4a01-43a3-84bc-ccebb43efe82))
@@ -984,7 +960,7 @@
   (symbol (lib_id "Device:C") (at 66.04 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8039f050-8cc3-4544-a43f-d133ba588549)
-    (property "Reference" "C1" (at 69.85 172.72 0)
+    (property "Reference" "C9" (at 69.85 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 69.85 175.26 0)
@@ -1002,25 +978,13 @@
     (property "Notes" "X7R 25V" (at 66.04 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 66.04 173.99 0)
+    (property "Mouser" "791-0603B104J250CT" (at 66.04 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e2af0d93-de79-410c-bb53-44e9c6b26064))
     (pin "2" (uuid df55fcf6-0c35-4e1b-915c-dbfab9d3881d))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "C1") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "C7") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "C9") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "C11") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "C9") (unit 1)
         )
@@ -1046,7 +1010,7 @@
     (property "LCSC" "C17414" (at 97.79 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 118.11 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dd8e4f59-02c9-4124-b3c6-52d0277f19be))
@@ -1063,7 +1027,7 @@
   (symbol (lib_id "power:+12V") (at 66.04 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a280d1a3-6bf8-4f2e-a09d-58fd45f5e967)
-    (property "Reference" "#PWR03" (at 66.04 171.45 0)
+    (property "Reference" "#PWR023" (at 66.04 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 66.04 162.56 0)
@@ -1078,18 +1042,6 @@
     (pin "1" (uuid 2241a410-7f91-464e-ab0b-a5d7ee2b4dae))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR023") (unit 1)
         )
@@ -1153,7 +1105,7 @@
     (property "LCSC" "C17414" (at 97.79 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 100.33 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8525aa92-2bb1-4d1f-bf24-f5e183107d01))
@@ -1185,7 +1137,7 @@
     (property "LCSC" "C17414" (at 97.79 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 40.64 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5a676298-75f2-44dd-9020-07ab5ae01488))
@@ -1217,7 +1169,7 @@
     (property "LCSC" "C17414" (at 97.79 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 58.42 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7e151976-436d-45fe-88f0-73155189483f))
@@ -1249,7 +1201,7 @@
     (property "LCSC" "C17414" (at 158.75 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 158.75 114.3 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 158.75 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 53b29616-955c-454e-a9bd-648679d67b7a))
@@ -1266,7 +1218,7 @@
   (symbol (lib_id "power:GND") (at 72.39 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4e7fbbc-b733-4dfa-b41a-d60b4920700f)
-    (property "Reference" "#PWR05" (at 72.39 189.23 0)
+    (property "Reference" "#PWR024" (at 72.39 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 187.96 0)
@@ -1281,18 +1233,6 @@
     (pin "1" (uuid fc642f4f-9e92-4022-90c7-c706249db577))
     (instances
       (project "Tiny4xPoweredStereoMixer"
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/f21b05ca-c53e-4c9f-92f9-42535cdfa7f7"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/552f3912-3928-454a-823e-6f183577fda8"
-          (reference "#PWR010") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4f5d350b-a08e-4f50-b16f-b5f92c91b503"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/bfd1c0ad-a46f-412b-810b-077847d96983"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/4d0e0b63-01b4-4976-9c90-722e772b5af2"
           (reference "#PWR024") (unit 1)
         )
@@ -1318,7 +1258,7 @@
     (property "LCSC" "C17414" (at 97.79 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "" (at 97.79 109.22 0)
+    (property "Mouser" "71-CRCW080510K0FKEAC" (at 97.79 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 32790703-1f2b-4e06-91bd-d05a92dd67b7))
