@@ -27,7 +27,7 @@ The opamps shall use [TL072](https://www.ti.com/lit/gpn/TL072H)
 
 Using opamps to buffer the input signals and mix the channels together will ensure that the volume of each channel can be mixed independently from the others.
 
-The design will implement an inverting opamp "virtual  ground" topology. The virtual ground refers to the inputs of the mixing opamp: the non-inverting input will be referenced to ground, which means the voltage at both opamp inputs will be referenced to ground because the potential _difference between inputs_ will always try to be zero. The absence of voltage at these inputs will prevent cross-talk between the channels. There is an excellent explanation of this concept at [sound-au.com](https://sound-au.com/articles/audio-mixing.htm#s3)
+The design will implement an inverting opamp "virtual  ground" topology. The virtual ground refers to the inputs of the mixing opamp: the non-inverting input will be referenced to ground, which means the voltage at both opamp inputs will be referenced to ground because the potential _difference between inputs_ will always try to be zero. The absence of voltage at these inputs will prevent cross-talk between the channels. There is a far superior explanation of this concept at [sound-au.com](https://sound-au.com/articles/audio-mixing.htm#s3)
 
 ## Power Stage Design
 
