@@ -25,7 +25,7 @@ A Tiny form-factor 4-channel stereo mixer for use with TV/PC/Turntable/Amplifer
 
 Using opamps to buffer the input signals and mix the channels together will ensure that the volume of each channel can be mixed independently from the others.
 
-The design will implement an inverting opamp topology, sometimes known as a "virtual  ground" design. The virtual ground refers to the inputs of the mixing opamp: the non-inverting input will be referenced to ground, which means the voltage at both opamp inputs will be referenced to ground because the potential _difference between inputs_ will always try to be zero. The absence of voltage will prevent cross-talk between the channels.
+The design will implement an inverting opamp "virtual  ground" topology. The virtual ground refers to the inputs of the mixing opamp: the non-inverting input will be referenced to ground, which means the voltage at both opamp inputs will be referenced to ground because the potential _difference between inputs_ will always try to be zero. The absence of voltage will prevent cross-talk between the channels.
 
 ## Power Stage Design
 
