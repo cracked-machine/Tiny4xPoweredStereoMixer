@@ -1,4 +1,4 @@
-weweHTML version of this page can be found [here](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/)
+HTML version of this page can be found [here](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/)
 
 # Tiny 4 Channel Powered Stereo Mixer
 
