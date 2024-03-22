@@ -1,4 +1,4 @@
-HTML version of this page can be found [here](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/)
+weHTML version of this page can be found [here](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/)
 
 # Tiny 4 Channel Powered Stereo Mixer
 
@@ -23,6 +23,8 @@ A Tiny form-factor 4-channel stereo mixer for use with TV/PC/Turntable/Amplifer
 
 ![](doc/design/BlockDiagram.drawio.png)
 
+The opamps shall use [TL072](https://www.ti.com/lit/gpn/TL072H)
+
 Using opamps to buffer the input signals and mix the channels together will ensure that the volume of each channel can be mixed independently from the others.
 
 The design will implement an inverting opamp "virtual  ground" topology. The virtual ground refers to the inputs of the mixing opamp: the non-inverting input will be referenced to ground, which means the voltage at both opamp inputs will be referenced to ground because the potential _difference between inputs_ will always try to be zero. The absence of voltage will prevent cross-talk between the channels.
@@ -31,8 +33,8 @@ The design will implement an inverting opamp "virtual  ground" topology. The vir
 
 To power the buffer and mixer opamps, the design will need a power stage that supports 
 
-1.  bi-polar or symmetric voltage rails that will allow "rail-to-rail" headroom for the +/- audio signal.
-2.  enough current for 5 (4 input + 1 mix) dual channel opamps.
+1. Bi-polar or symmetric voltage rails that will allow "rail-to-rail" positive and negative headroom for the +/- audio signal.
+2. Enough current for 5 (4 input + 1 mix) dual channel opamps. 
 
 The simplest method for creating a negative voltage rail is to....not create a negative voltage rail. In other words: use a voltage divider to create DC bias mid-point at the positive voltage rail. This has the effect of level-shifting the operating point of the opamps. This requires only passive components - which is cheap - but also complicates the opamp design and can create issues with the opamp behaviour itself. You also have to be careful to filter out the DC from the input and output to prevent "pops" and damage to other devices such as speakers.
 
