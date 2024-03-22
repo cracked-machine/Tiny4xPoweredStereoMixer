@@ -2,6 +2,8 @@
 
 A Tiny form-factor 4-channel Stereo Mixer for use with TV/PC/Turntable/Amplifer
 
+![](doc/design/SystemContextDiagram.drawio.png)
+
 HTML version of this page can be found [here](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/)
 
 ## Requirements
