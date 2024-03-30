@@ -76,7 +76,7 @@ Final note on the Cuk topology: There don't appear to be many IC's out there tha
 
 I used a 4 layer board so I could have a layer per voltage rail. This makes routing the traces significantly easier. I kept the board dimensions below 10cm to minimize manufacture costs. 
 
-[ibom](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/doc/design/ibom.html)
+[Interactive BOM](https://cracked-machine.github.io/Tiny4xPoweredStereoMixer/doc/design/ibom.html)
 
 ## Enclosure
 
