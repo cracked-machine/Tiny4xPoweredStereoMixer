@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "b1ae8caf-848b-4eda-9280-40c61c41d60b")
 	(paper "A4")
+	(title_block
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -517,9 +520,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -617,8 +620,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -637,14 +640,14 @@
 		)
 		(symbol "power:-12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -653,7 +656,7 @@
 				)
 			)
 			(property "Value" "-12V"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -699,8 +702,8 @@
 			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "-12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -733,9 +736,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -809,8 +812,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1404,6 +1407,16 @@
 		)
 		(uuid "ff1c362d-a9b7-45b6-86c0-bdd76d3aa010")
 	)
+	(text "STEREO MIXER"
+		(exclude_from_sim no)
+		(at 35.306 23.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9a77cff4-c4e5-4042-9537-a9343c9ac0a5")
+	)
 	(hierarchical_label "ch4_left_mix_in"
 		(shape input)
 		(at 88.9 40.64 180)
@@ -1570,7 +1583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 113.03 175.26 0)
 			(effects
 				(font
@@ -1664,7 +1677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 67.31 0)
 			(effects
 				(font
@@ -1673,7 +1686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 67.31 0)
 			(effects
 				(font
@@ -1752,7 +1765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -1761,7 +1774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -1857,7 +1870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 138.43 0)
 			(effects
 				(font
@@ -1912,7 +1925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -1921,7 +1934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -2008,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 78.74 167.64 0)
 			(effects
 				(font
@@ -2074,7 +2087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -2139,7 +2152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -2244,7 +2257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 110.49 184.15 0)
 			(effects
 				(font
@@ -2310,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 110.49 165.1 0)
 			(effects
 				(font
@@ -2366,7 +2379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -2375,7 +2388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -2451,7 +2464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 127 0)
 			(effects
 				(font
@@ -2460,7 +2473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 127 0)
 			(effects
 				(font
@@ -2539,7 +2552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 173.99 0)
 			(effects
 				(font
@@ -2548,7 +2561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 66.04 173.99 0)
 			(effects
 				(font
@@ -2633,7 +2646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -2642,7 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -2729,7 +2742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 66.04 167.64 0)
 			(effects
 				(font
@@ -2795,7 +2808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -2889,7 +2902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 100.33 0)
 			(effects
 				(font
@@ -2898,7 +2911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 100.33 0)
 			(effects
 				(font
@@ -2974,7 +2987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -2983,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -3059,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -3068,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -3145,7 +3158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 158.75 114.3 0)
 			(effects
 				(font
@@ -3154,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 158.75 114.3 0)
 			(effects
 				(font
@@ -3241,7 +3254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -3296,7 +3309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "~"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -3305,7 +3318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.79 109.22 0)
 			(effects
 				(font

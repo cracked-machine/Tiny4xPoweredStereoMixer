@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "26e52f24-04a3-423c-a682-9537355f5cc6")
 	(paper "A4")
+	(title_block
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -613,9 +616,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -713,8 +716,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -733,14 +736,14 @@
 		)
 		(symbol "power:-12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -749,7 +752,7 @@
 				)
 			)
 			(property "Value" "-12V"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -795,8 +798,8 @@
 			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "-12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -829,9 +832,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -905,8 +908,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1232,6 +1235,16 @@
 		)
 		(uuid "fca6a637-7bd1-44f7-b59c-fb66cbef0533")
 	)
+	(text "STEREO INPUT BUFFER"
+		(exclude_from_sim no)
+		(at 38.608 20.066 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5b40be0c-dfb3-4cf1-bb65-7ba45114ed76")
+	)
 	(hierarchical_label "right_channel_input"
 		(shape input)
 		(at 67.31 76.2 180)
@@ -1326,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -1442,7 +1455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 96.52 78.74 0)
 			(effects
 				(font
@@ -1559,7 +1572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 99.06 149.86 0)
 			(effects
 				(font
@@ -1637,7 +1650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -1715,7 +1728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -1793,7 +1806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 175.26 0)
 			(effects
 				(font
@@ -1829,15 +1842,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 166.37 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cb36886-264c-4548-bdce-727f1d928a31")
 		(property "Reference" "RV1"
-			(at 163.83 83.82 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1859,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 86.36 0)
+			(at 163.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RK09L12B0A4S"
+		(property "Datasheet" "~"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -1872,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual potentiometer, separate units"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -1973,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -2090,7 +2103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 166.37 93.98 0)
 			(effects
 				(font
@@ -2168,7 +2181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -2238,7 +2251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf"
+		(property "Datasheet" "~"
 			(at 111.76 160.02 0)
 			(effects
 				(font
@@ -2247,7 +2260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 160.02 0)
 			(effects
 				(font
@@ -2347,7 +2360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KA8NNNC_C1590.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 160.02 0)
 			(effects
 				(font
@@ -2356,7 +2369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 160.02 0)
 			(effects
 				(font
@@ -2464,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 144.78 177.8 0)
 			(effects
 				(font
@@ -2500,15 +2513,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 166.37 52.07 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f38ba6f8-a94c-4721-9f4c-787f6a7eb239")
 		(property "Reference" "RV1"
-			(at 163.83 50.8 0)
+			(at 163.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2530,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 53.34 0)
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RK09L12B0A4S"
+		(property "Datasheet" "~"
 			(at 166.37 52.07 0)
 			(effects
 				(font
@@ -2543,7 +2556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual potentiometer, separate units"
 			(at 166.37 52.07 0)
 			(effects
 				(font
