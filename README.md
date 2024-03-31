@@ -52,7 +52,9 @@ The output voltage can be adjusted using the negative feedback resistors RFB1 an
 
 |VREF|RFB1|RFB2|VOUT|
 |-|-|-|-|
-|-1.23v|10K|88.7k|VREF * (1 + (RFB2/RFB1)  = -12.14v|
+|-1.23v|2.2K|22k|VREF * (1 + (RFB2/RFB1)  = -13.5v|
+
+Using common resistor values it was only possible to reach just under 12v or quite a bit over. So I opted for the latter. Better to have a larger power supply swing than too little. It also gives some allowance for load regulation.
 
 The application curve from the datasheet shows that with -12V output, the max current it could provide would be 400mA.
 
