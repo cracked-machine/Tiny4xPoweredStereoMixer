@@ -59,10 +59,18 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|120396000|88773000|38ae4ac9-c21e-4a2b-9054-83eda51a6853|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|124206000|73533000|f7e5ea0b-4503-4f5d-aa48-43aaf072334e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|163576000|73533000|2d516a0e-98c3-4ef0-a9d7-9ee75507568a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|176276000|88773000|324beea4-1c5e-4767-8a21-f3776e6caf53|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|124460000|81280000|324beea4-1c5e-4767-8a21-f3776e6caf53|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167640000|81280000|38ae4ac9-c21e-4a2b-9054-83eda51a6853|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|111472000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|41523f5f-6d95-4b07-95be-3f0a547483a8",
+        "silk_edge_clearance|117712000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|ecec9860-a23b-43bf-8fd3-c2697b9fc17e",
+        "silk_edge_clearance|131384000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|d869e08e-f93e-4508-855d-a33fbd7a557f",
+        "silk_edge_clearance|137624000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|77c30230-4406-4043-ae19-b0bbb704062f",
+        "silk_edge_clearance|151096000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|3a6a0879-114b-4c1e-9eb0-621cdfe90bc8",
+        "silk_edge_clearance|157336000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|dae654dd-d9a0-4474-8ca0-0af6216a4d6f",
+        "silk_edge_clearance|170881000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|58f25c85-857b-4f2c-aa4a-4c7cf24c5c0a",
+        "silk_edge_clearance|177121000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|b0d7beaa-50b1-49df-bff0-7a424838e894",
+        "silk_edge_clearance|190720000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|ace62b25-b023-4ce1-b24d-4d703b666dda",
+        "silk_edge_clearance|196960000|50673000|025d0e80-9bec-42b5-8993-7a9f7e13760c|fe3b17fe-174e-48f7-aea5-756d37566264"
       ],
       "meta": {
         "version": 2
@@ -561,13 +569,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
