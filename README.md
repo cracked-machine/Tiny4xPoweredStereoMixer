@@ -50,7 +50,9 @@ Here is the reference design from the datasheet.
 
 ### Soft Start
 
-Since the IC doesn't contain a soft-start feature, required additional circuitry is shown in the image above. Without the soft-start, the in-rush current will significantly exceed the current consumption specification. In fact, it tripped the lab power supply current protection; I thought the board had a short. I had to adjust the current protection to to more than 1 Amp to allow the circuit to power up correctly! Not great if you're trying to prevent lab accidents. Adding the soft-start circuitry meant that the board powered up peaking at 60mA...which is a massive drop and far mroe acceptable. Below is a screenshot of the scope capture. Negative power rail from the [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf) is Yellow, test signal input is Blue.
+Since the IC doesn't contain a soft-start feature, required additional circuitry is shown in the image above. Without the soft-start, the in-rush current will significantly exceed the current consumption specification. In fact, it tripped the lab power supply current protection; I thought the board had a short. I had to adjust the current protection to to more than 1 Amp to allow the circuit to power up correctly! Not great if you're trying to prevent lab accidents. Adding the soft-start circuitry meant that the board powered up peaking at 60mA...which is a massive drop and far mroe acceptable. Below is a screenshot of the scope capture. Negative power rail from the [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf) is Yellow, output signal is shown in Blue.
+
+Notice also the large voltage spike on the output signal when the board is powered up. Not sure which is the best solution here: Maybe caps on the output path, maybe delayed opamp start or maybe just turn the board on __before__ any down stream amplifiers.
 
 ![](doc/design/soft-start-scope-capture.jpg)
 
