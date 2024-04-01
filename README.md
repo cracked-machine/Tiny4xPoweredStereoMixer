@@ -79,50 +79,9 @@ The datasheet boasts `Better Regulation Than a Charge Pump` but then fails to of
 
 Below are the load regulation test results from 10mA to 400mA. Test was run using a [TENMA 72-13210](https://uk.farnell.com/tenma/72-13210/dc-electronic-load-prog-30a-120v/dp/2848407)
 
-vout (Volts)   | iout (Amps)
------- | ----
--13.606 | 0.01
--13.587 | 0.02
--13.565 | 0.03
--13.525 | 0.04
--13.501 | 0.05
--13.479 | 0.06
--13.446 | 0.07
--13.420 | 0.08
--13.386 | 0.09
--13.360 | 0.10
--13.330 | 0.11
--13.308 | 0.12
--13.275 | 0.13
--13.246 | 0.14
--13.221 | 0.15
--13.200 | 0.16
--13.169 | 0.17
--13.137 | 0.18
--13.114 | 0.19
--13.080 | 0.20
--13.050 | 0.21
--13.023 | 0.22
--12.990 | 0.23
--12.960 | 0.24
--12.931 | 0.25
--12.901 | 0.26
--12.870 | 0.27
--12.840 | 0.28
--12.810 | 0.29
--12.778 | 0.30
--12.746 | 0.31
--12.708 | 0.32
--12.667 | 0.33
--12.638 | 0.34
--12.600 | 0.35
--12.580 | 0.36
--12.550 | 0.37
--12.515 | 0.38
--12.475 | 0.39
--12.420 | 0.40
+![](doc\design\LoadRegulation.png)
 
-So the voltage rail dropped by ~1.2V, which is a 10% drop. That's actually not too bad. Although if I had picked < 12V output I might not be so forgiving. Still better than a charge pump though...
+The negative voltage rail dropped by ~1.2V at the max load of 400mA, which is a 10% drop. That's actually not __too__ bad. Although if I had picked < 12V output I might not be so forgiving. Still, better than a charge pump...
 
 ---
 
