@@ -261,6 +261,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2860,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 256.54) (xy 83.82 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8467b45-2f67-45d3-917c-c35619a66344")
+	)
+	(wire
+		(pts
 			(xy 104.14 151.13) (xy 104.14 152.4)
 		)
 		(stroke
@@ -3443,6 +3555,72 @@
 			(justify right bottom)
 		)
 		(uuid "d94bee2d-7038-48c3-b213-5a44305ccdd0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03fe5671-cdd7-41f9-a42f-109eca89a01a")
+		(property "Reference" "#PWR08"
+			(at 83.82 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "074b6393-9890-4dae-8764-ae98df08ba1b")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7912,19 +8090,19 @@
 			(uuid "fa3721eb-e282-430f-bdb1-4cee04a3b307")
 		)
 		(pin "5"
-			(uuid "9a50b2df-b354-4203-809f-d73ebb7cae4f")
+			(uuid "9a50b2df-b354-4203-809f-d73ebb7cae50")
 		)
 		(pin "6"
-			(uuid "d2084e7e-0c49-4e26-af20-36afe1a47704")
+			(uuid "d2084e7e-0c49-4e26-af20-36afe1a47705")
 		)
 		(pin "7"
-			(uuid "998c4db4-a09b-4520-a9fd-9306924d3093")
+			(uuid "998c4db4-a09b-4520-a9fd-9306924d3094")
 		)
 		(pin "4"
-			(uuid "bf900590-96e1-461f-8a44-238c6de67ab6")
+			(uuid "bf900590-96e1-461f-8a44-238c6de67ab7")
 		)
 		(pin "8"
-			(uuid "b2315498-ecae-4cae-a390-2f3a6788b619")
+			(uuid "b2315498-ecae-4cae-a390-2f3a6788b61a")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -8611,6 +8789,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9607bd1-725e-4343-883a-b01e4aff0677")
+		(property "Reference" "TP1"
+			(at 86.36 251.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 254.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 88.9 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/215/5005_5009-743680.pdf"
+			(at 88.9 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "534-5006"
+			(at 83.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c0b404-d5dd-4433-ac7e-a2b77b86c426")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 158.75 242.57 0)
 		(unit 1)
@@ -9223,13 +9477,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa39d916-4a0b-4696-99b5-2629e79e9e5b")
+			(uuid "fa39d916-4a0b-4696-99b5-2629e79e9e5c")
 		)
 		(pin "2"
-			(uuid "8c653b23-e79c-46b0-a65f-c1d265cff6ee")
+			(uuid "8c653b23-e79c-46b0-a65f-c1d265cff6ef")
 		)
 		(pin "3"
-			(uuid "3b640b46-8b28-49dc-953f-cd3d7b6b909c")
+			(uuid "3b640b46-8b28-49dc-953f-cd3d7b6b909d")
 		)
 		(pin "5"
 			(uuid "c7f3f58b-3450-443c-985b-020e722dea12")
@@ -9241,10 +9495,10 @@
 			(uuid "b0f61437-e6c1-4c63-bb73-28cfcc52bf1b")
 		)
 		(pin "4"
-			(uuid "3d7f0fb5-b23f-4b06-a574-e79682389d8d")
+			(uuid "3d7f0fb5-b23f-4b06-a574-e79682389d8e")
 		)
 		(pin "8"
-			(uuid "d8f79eda-bb62-4983-89df-0b2d91fb737d")
+			(uuid "d8f79eda-bb62-4983-89df-0b2d91fb737e")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -9613,7 +9867,7 @@
 		)
 	)
 	(sheet
-		(at 307.34 218.44)
+		(at 295.91 201.93)
 		(size 63.5 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -9625,7 +9879,7 @@
 		)
 		(uuid "bf2359ed-521a-44a7-8b69-dfb75aafe68a")
 		(property "Sheetname" "PowerSupply"
-			(at 307.34 217.7284 0)
+			(at 295.91 201.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9888,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 307.34 248.2346 0)
+			(at 295.91 231.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
