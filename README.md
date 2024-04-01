@@ -46,25 +46,96 @@ In the end I settled on the Cuk regulator topology using the [LM2611](https://ww
 
 Here is the reference design from the datasheet. 
 
-![](doc/design/12V_to_–5V_Inverting_Converter.PNG)
+![](doc\design\LM2611_Shutdown_and_Soft-Start.PNG)
 
-The output voltage can be adjusted using the negative feedback resistors RFB1 and RFB2:
+### Soft Start
+
+Since the IC doesn't contain a soft-start feature, required additional circuitry is shown in the image above. Without the soft-start, the in-rush current will significantly exceed the current consumption specification. In fact, it tripped the lab power supply current protection; I thought the board had a short. I had to adjust the current protection to to more than 1 Amp to allow the circuit to power up correctly! Not great if you're trying to prevent lab accidents. Adding the soft-start circuitry meant that the board powered up peaking at 60mA...which is a massive drop and far mroe acceptable. Below is a screenshot of the scope capture. Negative power rail from the [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf) is Yellow, test signal input is Blue.
+
+![](doc\design\soft-start-scope-capture.jpg)
+
+### Output Voltage 
+
+The output voltage can be adjusted using the negative feedback resistors RFB1 and RFB2.
+Rather unhelpfully the datasheet did not contain the equation to calculate the resistor divider values. I found the equation on a post in the TI forums. Maybe this is EE101 but I can't reconcile that omission in my head.
 
 |VREF|RFB1|RFB2|VOUT|
 |-|-|-|-|
 |-1.23v|2.2K|22k|VREF * (1 + (RFB2/RFB1)  = -13.5v|
 
+Note, that the resistors must not exceed 50Kohm. According to the datasheet this is due to leakage at the NFB pin.
+
 Using common resistor values it was only possible to reach just under 12v or quite a bit over. So I opted for the latter. Better to have a larger power supply swing than too little. It also gives some allowance for load regulation.
+
+### Current Draw and Load Regulation
 
 The application curve from the datasheet shows that with -12V output, the max current it could provide would be 400mA.
 
 ![](doc/design/ApplicationCurve-Max_Output_Current_vs_Output_Voltage_12V_to_–5V.png)
 
-Bearing in mind the quiescent voltage of each TL072 opamp is only 1.2mA, this is overkill. However, during active use, the current will certainly be higher. Additionally, I'm always sceptical about the claims of load regulation on these regulator IC's. So this is an experiment as much as anything else.  I will be testing the power supply stage with a variable load to see how close this spec is to real world current draw. 
+Bearing in mind the quiescent voltage of each TL072 opamp is only 1.2mA, this is overkill. However, during active use, the current will certainly be higher. 
+
+The datasheet boasts `Better Regulation Than a Charge Pump` but then fails to offer any evidence elsewhere in the datasheet. I have no doubt that this claim is broadly true - charge pumps have abysmal load regulation. However, I'm always sceptical about the claims of load regulation on these regulator IC's. Usually when a company omits test results from the datasheet it's because the results were not so great.  
+
+Below are the load regulation test results from 10mA to 400mA. Test was run using a [TENMA 72-13210](https://uk.farnell.com/tenma/72-13210/dc-electronic-load-prog-30a-120v/dp/2848407)
+
+vout (Volts)   | iout (Amps)
+------ | ----
+-13.606 | 0.01
+-13.587 | 0.02
+-13.565 | 0.03
+-13.525 | 0.04
+-13.501 | 0.05
+-13.479 | 0.06
+-13.446 | 0.07
+-13.420 | 0.08
+-13.386 | 0.09
+-13.360 | 0.10
+-13.330 | 0.11
+-13.308 | 0.12
+-13.275 | 0.13
+-13.246 | 0.14
+-13.221 | 0.15
+-13.200 | 0.16
+-13.169 | 0.17
+-13.137 | 0.18
+-13.114 | 0.19
+-13.080 | 0.20
+-13.050 | 0.21
+-13.023 | 0.22
+-12.990 | 0.23
+-12.960 | 0.24
+-12.931 | 0.25
+-12.901 | 0.26
+-12.870 | 0.27
+-12.840 | 0.28
+-12.810 | 0.29
+-12.778 | 0.30
+-12.746 | 0.31
+-12.708 | 0.32
+-12.667 | 0.33
+-12.638 | 0.34
+-12.600 | 0.35
+-12.580 | 0.36
+-12.550 | 0.37
+-12.515 | 0.38
+-12.475 | 0.39
+-12.420 | 0.40
+
+So the voltage rail dropped by ~1.2V, which is a 10% drop. That's actually not too bad. Although if I had picked < 12V output I might not be so forgiving. Still better than a charge pump though...
+
+---
 
 Final note on the Cuk topology: There don't appear to be many IC's out there that support this type of regulator. Either it's overlooked or it has some major drawback that I'm missing here.
 
-**TODO: ADD LOAD RESULTS HERE**
+I noticed later it is possible to create an inverting regulator from a synchronous buck regulator.  [See this app note from TI](https://www.ti.com/lit/an/slva458b/slva458b.pdf). However, there are significant limitations:
+
+- the input voltage
+needs to be higher than the minimum required voltage for the device
+- The maximum allowable output
+voltage is limited by the maximum Vdev minus the maximum input voltage.
+- The maximum load current cannot be more than the maximum current through the internal switches.
+
 
 ## Schematics
 
