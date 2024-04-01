@@ -4839,7 +4839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -5023,7 +5023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -5042,13 +5042,13 @@
 			(uuid "71853ac3-6fa1-437b-9c19-4aaa28b1e9b3")
 		)
 		(pin "4"
-			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb4")
+			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb5")
 		)
 		(pin "5"
-			(uuid "917aa74b-609f-4499-85aa-e84c1746b399")
+			(uuid "917aa74b-609f-4499-85aa-e84c1746b39a")
 		)
 		(pin "6"
-			(uuid "b7b24f15-abb2-4151-a718-86a22647ba20")
+			(uuid "b7b24f15-abb2-4151-a718-86a22647ba21")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -5190,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/670/rcj_22-3159382.pdf"
 			(at 41.91 132.08 0)
 			(effects
 				(font
@@ -5432,7 +5432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 196.85 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 196.85 0)
 			(effects
 				(font
@@ -5450,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 196.85 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 196.85 0)
 			(effects
 				(font
@@ -5478,13 +5478,13 @@
 			(uuid "56da0dd5-9a4d-4797-b616-99810b6c2fe2")
 		)
 		(pin "4"
-			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb4")
+			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb6")
 		)
 		(pin "5"
-			(uuid "917aa74b-609f-4499-85aa-e84c1746b399")
+			(uuid "917aa74b-609f-4499-85aa-e84c1746b39b")
 		)
 		(pin "6"
-			(uuid "b7b24f15-abb2-4151-a718-86a22647ba20")
+			(uuid "b7b24f15-abb2-4151-a718-86a22647ba22")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -5523,7 +5523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -5532,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -5550,7 +5550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -5666,19 +5666,19 @@
 			(uuid "5a05b41f-49d2-4bae-9367-b73231329378")
 		)
 		(pin "5"
-			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa739")
+			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa73a")
 		)
 		(pin "6"
-			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55ad")
+			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55ae")
 		)
 		(pin "7"
-			(uuid "97d86beb-5999-4073-8197-e8102f0d54a0")
+			(uuid "97d86beb-5999-4073-8197-e8102f0d54a1")
 		)
 		(pin "4"
-			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239bc")
+			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239bd")
 		)
 		(pin "8"
-			(uuid "72263654-7bf3-4fde-9986-fd12c988ce59")
+			(uuid "72263654-7bf3-4fde-9986-fd12c988ce5a")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -5889,7 +5889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 88.9 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -6047,7 +6047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -6066,13 +6066,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a02")
+			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a03")
 		)
 		(pin "2"
-			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a37")
+			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a38")
 		)
 		(pin "3"
-			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaa9")
+			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaaa")
 		)
 		(pin "4"
 			(uuid "370704e5-19cb-4da5-8568-9af232ea5eae")
@@ -6207,7 +6207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 43.18 0)
+			(at 160.02 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,22 +6563,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f701")
+			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f702")
 		)
 		(pin "2"
-			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3c")
+			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3d")
 		)
 		(pin "3"
-			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37cc")
+			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37cd")
 		)
 		(pin "5"
-			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a951")
+			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a952")
 		)
 		(pin "6"
-			(uuid "64efc866-a7de-4c1b-8f62-99d593e9dffe")
+			(uuid "64efc866-a7de-4c1b-8f62-99d593e9dfff")
 		)
 		(pin "7"
-			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e6")
+			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e7")
 		)
 		(pin "4"
 			(uuid "cf6eef77-5ced-4ff7-89c4-0c2ab521ca30")
@@ -6666,13 +6666,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c604")
+			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c605")
 		)
 		(pin "2"
-			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b1e")
+			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b1f")
 		)
 		(pin "3"
-			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb63")
+			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb64")
 		)
 		(pin "5"
 			(uuid "e3a64c80-95fa-4183-9e2a-20ef90355492")
@@ -6684,10 +6684,10 @@
 			(uuid "2530695b-9bad-47de-8852-d4fad6e8b7d4")
 		)
 		(pin "4"
-			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb00")
+			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb01")
 		)
 		(pin "8"
-			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b55")
+			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b56")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -7135,7 +7135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -7144,7 +7144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -7153,7 +7153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -7181,13 +7181,13 @@
 			(uuid "130ac73d-c160-42e0-95bd-94c7335d0bc5")
 		)
 		(pin "4"
-			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb4")
+			(uuid "2d3a644b-526d-446a-a765-ecb377c7eeb7")
 		)
 		(pin "5"
-			(uuid "917aa74b-609f-4499-85aa-e84c1746b399")
+			(uuid "917aa74b-609f-4499-85aa-e84c1746b39c")
 		)
 		(pin "6"
-			(uuid "b7b24f15-abb2-4151-a718-86a22647ba20")
+			(uuid "b7b24f15-abb2-4151-a718-86a22647ba23")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -7440,19 +7440,19 @@
 			(uuid "48967818-d51c-4526-8eed-52a99c0a2721")
 		)
 		(pin "5"
-			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa739")
+			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa73b")
 		)
 		(pin "6"
-			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55ad")
+			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55af")
 		)
 		(pin "7"
-			(uuid "97d86beb-5999-4073-8197-e8102f0d54a0")
+			(uuid "97d86beb-5999-4073-8197-e8102f0d54a2")
 		)
 		(pin "4"
-			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239bc")
+			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239be")
 		)
 		(pin "8"
-			(uuid "72263654-7bf3-4fde-9986-fd12c988ce59")
+			(uuid "72263654-7bf3-4fde-9986-fd12c988ce5b")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -7628,19 +7628,19 @@
 			(uuid "d4f610be-0463-465b-b267-d7ee079abf00")
 		)
 		(pin "5"
-			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa739")
+			(uuid "0a08aabd-bda1-4b16-aaaf-5bfc193aa73c")
 		)
 		(pin "6"
-			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55ad")
+			(uuid "0cc52469-48f8-4b9e-bb0e-8391edbe55b0")
 		)
 		(pin "7"
-			(uuid "97d86beb-5999-4073-8197-e8102f0d54a0")
+			(uuid "97d86beb-5999-4073-8197-e8102f0d54a3")
 		)
 		(pin "4"
-			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239bc")
+			(uuid "4fce7baf-07c2-48c2-8e2d-09322f3239bf")
 		)
 		(pin "8"
-			(uuid "72263654-7bf3-4fde-9986-fd12c988ce59")
+			(uuid "72263654-7bf3-4fde-9986-fd12c988ce5c")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -8180,7 +8180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -8189,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -8198,7 +8198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -8207,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 129.54 0)
 			(effects
 				(font
@@ -8217,13 +8217,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a02")
+			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a04")
 		)
 		(pin "2"
-			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a37")
+			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a39")
 		)
 		(pin "3"
-			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaa9")
+			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaab")
 		)
 		(pin "4"
 			(uuid "bf98bf57-a869-491f-9c00-dd424656bf81")
@@ -8383,22 +8383,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f701")
+			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f703")
 		)
 		(pin "2"
-			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3c")
+			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3e")
 		)
 		(pin "3"
-			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37cc")
+			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37ce")
 		)
 		(pin "5"
-			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a951")
+			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a953")
 		)
 		(pin "6"
-			(uuid "64efc866-a7de-4c1b-8f62-99d593e9dffe")
+			(uuid "64efc866-a7de-4c1b-8f62-99d593e9e000")
 		)
 		(pin "7"
-			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e6")
+			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e8")
 		)
 		(pin "4"
 			(uuid "efe77fb6-0b45-4353-940d-e32134def21c")
@@ -8605,7 +8605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometers:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometers:Alps_RK12L12_Double_Horizontal"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -8614,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -8623,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual potentiometer, separate units"
+		(property "Description" "Dual potentiometer, separate units, linear taper"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "688-RK09L12B0A4S "
+		(property "Mouser" "688-RK12L1210C1K "
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -8642,13 +8642,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a02")
+			(uuid "52d2281e-0a53-4532-a05c-7abd75a99a05")
 		)
 		(pin "2"
-			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a37")
+			(uuid "7c4b70e4-0f99-4f86-af9d-a9f9d7122a3a")
 		)
 		(pin "3"
-			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaa9")
+			(uuid "ac3d0663-d5f4-41f2-9b9e-65eb6121eaac")
 		)
 		(pin "4"
 			(uuid "3d47cacd-0da2-4567-8183-15f7f12dfb70")
@@ -8834,7 +8834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/670/rcj_22-3159382.pdf"
 			(at 388.62 146.05 0)
 			(effects
 				(font
@@ -9150,7 +9150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/670/rcj_22-3159382.pdf"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/670/rcj_22-3159382.pdf"
 			(at 41.91 39.37 0)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/670/rcj_22-3159382.pdf"
 			(at 41.91 179.07 0)
 			(effects
 				(font
@@ -9577,13 +9577,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c604")
+			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c606")
 		)
 		(pin "2"
-			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b1e")
+			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b20")
 		)
 		(pin "3"
-			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb63")
+			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb65")
 		)
 		(pin "5"
 			(uuid "fa824863-4cd7-48c4-8a7a-6350afadf564")
@@ -9595,10 +9595,10 @@
 			(uuid "2eeeeef5-e4d3-49ae-afff-228b5ca496de")
 		)
 		(pin "4"
-			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb00")
+			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb02")
 		)
 		(pin "8"
-			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b55")
+			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b57")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -9760,7 +9760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 135.89 0)
+			(at 160.02 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,13 +10105,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c604")
+			(uuid "2ab936e0-9f07-4f51-bbf1-edcfd876c607")
 		)
 		(pin "2"
-			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b1e")
+			(uuid "e9069580-48e9-4045-b76f-0cbee9ee4b21")
 		)
 		(pin "3"
-			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb63")
+			(uuid "0a7a695e-7dda-4c0a-acbd-d7766474bb66")
 		)
 		(pin "5"
 			(uuid "c1021a27-ab9e-43cf-90dd-b40afcb9ab24")
@@ -10123,10 +10123,10 @@
 			(uuid "a8c58f62-20df-4012-a8f8-9f5c5b5fa6b2")
 		)
 		(pin "4"
-			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb00")
+			(uuid "b1133c3b-2191-4149-aa5b-c4ca65dfdb03")
 		)
 		(pin "8"
-			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b55")
+			(uuid "1644596d-2007-4a6f-8c9a-acf79c494b58")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
@@ -10371,22 +10371,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f701")
+			(uuid "6f2d626f-9b1a-4a39-b02d-a3d695c0f704")
 		)
 		(pin "2"
-			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3c")
+			(uuid "df2decbc-ec42-4255-89b5-f0188cbf4d3f")
 		)
 		(pin "3"
-			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37cc")
+			(uuid "7655b2fb-15ec-4cbe-88f3-dddab15a37cf")
 		)
 		(pin "5"
-			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a951")
+			(uuid "c0d1140e-2d46-4ac5-bd0b-9c4def97a954")
 		)
 		(pin "6"
-			(uuid "64efc866-a7de-4c1b-8f62-99d593e9dffe")
+			(uuid "64efc866-a7de-4c1b-8f62-99d593e9e001")
 		)
 		(pin "7"
-			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e6")
+			(uuid "2596321f-8a84-4f23-bead-629b54cbf5e9")
 		)
 		(pin "4"
 			(uuid "22f18980-f6bd-4037-bf13-b17c90d5c91c")
@@ -10488,7 +10488,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 182.88 0)
+			(at 160.02 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

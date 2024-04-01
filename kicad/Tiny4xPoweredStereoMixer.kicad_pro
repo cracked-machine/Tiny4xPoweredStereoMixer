@@ -59,18 +59,10 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|100330000|137160000|38ae4ac9-c21e-4a2b-9054-83eda51a6853|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|104140000|121920000|f7e5ea0b-4503-4f5d-aa48-43aaf072334e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|143510000|121920000|2d516a0e-98c3-4ef0-a9d7-9ee75507568a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|156210000|137160000|324beea4-1c5e-4767-8a21-f3776e6caf53|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|108918000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|97b06793-2b56-4836-8cb8-16ecbbaf1d63",
-        "silk_edge_clearance|118158000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|3467f1e1-a35e-4985-94d9-6e282d12697d",
-        "silk_edge_clearance|128730000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|1d5f077b-4dd7-45ba-9e41-f13ab577940e",
-        "silk_edge_clearance|137970000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|f4c02815-7f26-44f7-b1ac-1fab8b216ce6",
-        "silk_edge_clearance|148415000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|2e604e52-a4c3-4551-8f36-173e719c480d",
-        "silk_edge_clearance|157655000|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|10922c41-0577-4e37-a539-9c072ff28a92",
-        "silk_edge_clearance|89190667|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|554faa12-dd07-435a-8dfb-35d658ddc7a8",
-        "silk_edge_clearance|98430667|155575000|025d0e80-9bec-42b5-8993-7a9f7e13760c|04fdf3ca-6c70-4840-a8a4-5dc64bc749d5"
+        "lib_footprint_mismatch|120396000|88773000|38ae4ac9-c21e-4a2b-9054-83eda51a6853|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|124206000|73533000|f7e5ea0b-4503-4f5d-aa48-43aaf072334e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163576000|73533000|2d516a0e-98c3-4ef0-a9d7-9ee75507568a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|176276000|88773000|324beea4-1c5e-4767-8a21-f3776e6caf53|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -558,11 +550,41 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
