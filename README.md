@@ -46,13 +46,13 @@ In the end I settled on the Cuk regulator topology using the [LM2611](https://ww
 
 Here is the reference design from the datasheet. 
 
-![](doc\design\LM2611_Shutdown_and_Soft-Start.PNG)
+![](doc/design/LM2611_Shutdown_and_Soft-Start.PNG)
 
 ### Soft Start
 
 Since the IC doesn't contain a soft-start feature, required additional circuitry is shown in the image above. Without the soft-start, the in-rush current will significantly exceed the current consumption specification. In fact, it tripped the lab power supply current protection; I thought the board had a short. I had to adjust the current protection to to more than 1 Amp to allow the circuit to power up correctly! Not great if you're trying to prevent lab accidents. Adding the soft-start circuitry meant that the board powered up peaking at 60mA...which is a massive drop and far mroe acceptable. Below is a screenshot of the scope capture. Negative power rail from the [LM2611](https://www.ti.com/lit/ds/symlink/lm2611.pdf) is Yellow, test signal input is Blue.
 
-![](doc\design\soft-start-scope-capture.jpg)
+![](doc/design/soft-start-scope-capture.jpg)
 
 ### Output Voltage 
 
@@ -79,7 +79,7 @@ The datasheet boasts `Better Regulation Than a Charge Pump` but then fails to of
 
 Below are the load regulation test results from 10mA to 400mA. Test was run using a [TENMA 72-13210](https://uk.farnell.com/tenma/72-13210/dc-electronic-load-prog-30a-120v/dp/2848407)
 
-![](doc\design\LoadRegulation.png)
+![](doc/design/LoadRegulation.png)
 
 The negative voltage rail dropped by ~1.2V at the max load of 400mA, which is a 10% drop. That's actually not __too__ bad. Although if I had picked < 12V output I might not be so forgiving. Still, better than a charge pump...
 
