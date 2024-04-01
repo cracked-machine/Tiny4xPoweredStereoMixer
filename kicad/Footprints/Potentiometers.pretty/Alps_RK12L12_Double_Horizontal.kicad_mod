@@ -1,0 +1,180 @@
+(footprint "Alps_RK12L12_Double_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2a971d10-39d4-4e25-bd1a-ba20ec0338bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Alps_RK12L12_Double_Horizontal"
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f042b76f-cbda-4723-83d0-1c25f5f441d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c7deb77-a1f4-44d4-8fb3-ea1a482a1b53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/15/RK12L12_VARIETYOTHER-1370614.pdf"
+		(at 0.1 -10.9 0)
+		(unlocked yes)
+		(layer "User.1")
+		(hide yes)
+		(uuid "6b341f4b-479d-4df5-93e0-2555f1d970e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed944105-e97b-4884-8d70-a619b07f75d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.6 -2.6)
+		(end 8.6 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3629662f-1ccf-41ba-8b1c-1ce98d3709e4")
+	)
+	(fp_text user "FRONT"
+		(at -2.5 5.8 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "cd9489ef-e872-4960-b826-15193a5f508c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d581522f-7af5-4e41-b55d-98234874e14e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -7.1 0)
+		(size 2 2.1)
+		(drill oval 2 2.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "85e592db-778b-4955-900d-ab8ad45caf23")
+	)
+	(pad "" np_thru_hole oval
+		(at 7.1 0)
+		(size 2 2.1)
+		(drill oval 2 2.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "19e83845-fc69-4485-8900-d5b1142fa846")
+	)
+	(pad "1" thru_hole circle
+		(at -1 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b4083c1-eacb-4402-9586-857c8c4cbe63")
+	)
+	(pad "2" thru_hole circle
+		(at 1 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09cfa48e-082b-43ce-aea9-4a28c21f47fa")
+	)
+	(pad "3" thru_hole circle
+		(at 3 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c92e148-4042-408c-becb-2264456e7f83")
+	)
+	(pad "4" thru_hole circle
+		(at -3 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9a8a838-14b7-46b8-8183-0bdad8ca70b9")
+	)
+	(pad "5" thru_hole circle
+		(at -5 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c869d30-e7c0-4112-8d1c-fdf424306c70")
+	)
+	(pad "6" thru_hole circle
+		(at 5 3.3)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1766d0-7730-4998-b121-c2d4a3dd5ce1")
+	)
+	(model "${KIPRJMOD}/Footprints/Potentiometers.pretty/Alps_RK12L12_Double_Horizontal.STEP"
+		(offset
+			(xyz 0.2 -6.25 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
