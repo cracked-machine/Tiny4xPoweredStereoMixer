@@ -5,8 +5,10 @@
 	(uuid "2cabf97a-8b70-40c7-9d97-7314d50ae0f3")
 	(paper "A4")
 	(title_block
-		(date "2024-04-18")
-		(rev "C")
+		(title "${PROJECTNAME}")
+		(date "2024-10-22")
+		(rev "${REVISION}")
+		(company "Created By: ${AUTHOR}")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -160,108 +162,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1486,28 +1386,16 @@
 		(uuid "135920e2-e4c0-48ea-b292-78fdd1d2f9d5")
 	)
 	(junction
-		(at 227.33 88.9)
+		(at 227.33 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a4bfe77-deca-4d90-b834-4de805c21dd0")
-	)
-	(junction
-		(at 81.28 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "235e5f63-85c6-4dbc-a038-553c7fc3695f")
 	)
 	(junction
 		(at 205.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25036d63-9d02-42d4-ae9d-ddffca64e0f1")
-	)
-	(junction
-		(at 95.25 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fd1c4de-86e7-4c43-a3c9-0c6a9efa6917")
 	)
 	(junction
 		(at 227.33 109.22)
@@ -1629,6 +1517,10 @@
 		(color 0 0 0 0)
 		(uuid "feb5f205-b3ae-492a-b888-6ca79bc3974d")
 	)
+	(no_connect
+		(at 107.95 63.5)
+		(uuid "d1232dbd-d9b4-48a7-bf61-4c55bec408dc")
+	)
 	(wire
 		(pts
 			(xy 60.96 109.22) (xy 60.96 114.3)
@@ -1711,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 102.87) (xy 227.33 109.22)
+			(xy 227.33 97.79) (xy 227.33 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 227.33 95.25)
+			(xy 227.33 83.82) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1898,16 +1790,6 @@
 			(type default)
 		)
 		(uuid "68f84635-6c0a-4695-87d6-abf8a5524a12")
-	)
-	(wire
-		(pts
-			(xy 95.25 64.77) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "693559d4-3b19-480b-947c-9bea51c5fa66")
 	)
 	(wire
 		(pts
@@ -2001,16 +1883,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 109.22) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e40a737-98eb-41af-a7be-2a6bfd1d7b7c")
-	)
-	(wire
-		(pts
 			(xy 195.58 60.96) (xy 195.58 80.01)
 		)
 		(stroke
@@ -2048,16 +1920,6 @@
 			(type default)
 		)
 		(uuid "879b9484-28e9-48d9-b4cb-d84e913afbdf")
-	)
-	(wire
-		(pts
-			(xy 95.25 63.5) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89fffccc-697f-4423-a344-f7059e7d7ca8")
 	)
 	(wire
 		(pts
@@ -2121,16 +1983,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a46441c3-67a8-4fd6-ac63-ad4440fbdb33")
-	)
-	(wire
-		(pts
 			(xy 265.43 60.96) (xy 265.43 66.04)
 		)
 		(stroke
@@ -2151,23 +2003,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 81.28 63.5)
+			(xy 81.28 58.42) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7dcc3d7-e6d5-492d-a644-d2676e5e9923")
-	)
-	(wire
-		(pts
-			(xy 227.33 60.96) (xy 227.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2306444-4905-4460-a524-1628844d97c9")
 	)
 	(wire
 		(pts
@@ -2231,26 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 81.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62aba61-ed55-4963-b4fd-969c4d89b7aa")
-	)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4b748c-c6c6-4739-82d3-d99921f1fbb8")
-	)
-	(wire
-		(pts
 			(xy 50.8 58.42) (xy 50.8 78.74)
 		)
 		(stroke
@@ -2261,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 83.82) (xy 227.33 88.9)
+			(xy 227.33 78.74) (xy 227.33 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 241.3 88.9)
+			(xy 227.33 83.82) (xy 241.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2328,16 +2150,6 @@
 			(type default)
 		)
 		(uuid "df0d195a-6055-42ca-ba35-a2b8533b3ff2")
-	)
-	(wire
-		(pts
-			(xy 95.25 72.39) (xy 95.25 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f93ffa-f5b8-49c7-b56c-40c9a4f03ce5")
 	)
 	(wire
 		(pts
@@ -2371,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 73.66) (xy 227.33 76.2)
+			(xy 227.33 60.96) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2273,7 @@
 		(uuid "16b9b385-a669-47ec-ab27-a9d424b3483b")
 	)
 	(label "VSENSE"
-		(at 241.3 88.9 180)
+		(at 241.3 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2473,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 80.01 180)
+		(at 227.33 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2482,7 +2294,7 @@
 		(fields_autoplaced yes)
 		(uuid "06a261db-0797-4d0c-9891-43c966b5a250")
 		(property "Reference" "R2"
-			(at 229.87 78.7399 0)
+			(at 229.87 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2303,7 @@
 			)
 		)
 		(property "Value" "50K"
-			(at 229.87 81.2799 0)
+			(at 229.87 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2312,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 229.108 80.01 90)
+			(at 229.108 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 80.01 0)
+			(at 227.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2330,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 80.01 0)
+			(at 227.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,72 +2354,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11867594-06ee-4a27-ba4f-7a30c3b7c0af")
-		(property "Reference" "#PWR032"
-			(at 95.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c7230a6-b43b-42e7-99ef-314a4f11f52b")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2896,82 +2642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 227.33 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dac41dc-8e75-4e0b-a9fe-543932e66b2e")
-		(property "Reference" "R1"
-			(at 229.87 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47R"
-			(at 229.87 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 229.108 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 227.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5a9ab00-5d1f-4bc6-89ef-2369e00d1f0d")
-		)
-		(pin "1"
-			(uuid "06c40da3-814c-40f6-a9a2-1a4920ed7143")
-		)
-		(instances
-			(project "tps54202_inverting_breakout"
-				(path "/2cabf97a-8b70-40c7-9d97-7314d50ae0f3"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 195.58 83.82 0)
 		(unit 1)
@@ -3187,7 +2857,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 99.06 180)
+		(at 227.33 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3196,7 +2866,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f6f8c7a-0ea3-46d0-b125-d40904935497")
 		(property "Reference" "R3"
-			(at 229.87 97.7899 0)
+			(at 229.87 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +2875,7 @@
 			)
 		)
 		(property "Value" "2K4"
-			(at 229.87 100.3299 0)
+			(at 229.87 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +2884,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 229.108 99.06 90)
+			(at 229.108 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +2893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 99.06 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +2902,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 99.06 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm "
+		(property "Footprint" "Inductor_SMD:L_Ferrocore_DLG-0403"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -3842,73 +3512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 87.63 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8ec7a1b4-0c9e-4dc7-89d9-e597a39502fb")
-		(property "Reference" "R16"
-			(at 87.884 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2K2"
-			(at 87.63 65.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 87.63 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12e1854a-611d-45b4-9635-5c717d8dfaf7")
-		)
-		(pin "1"
-			(uuid "aa7e7130-3288-4ca2-bd7b-d83b4a88465b")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:TPS54202DDC")
 		(at 118.11 60.96 0)
 		(unit 1)
@@ -3990,76 +3593,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "99f19882-55fc-47b5-ab67-f6f056e0497c")
-		(property "Reference" "R17"
-			(at 97.79 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 97.79 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 97.028 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3faa5b5-462a-46d9-b919-f32878f3979a")
-		)
-		(pin "1"
-			(uuid "f2f2f4a6-f121-42b7-8609-8ce545c4892d")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4495,78 +4028,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1158434-f08b-4eb6-b043-c4402f503509")
-		(property "Reference" "TP2"
-			(at 210.058 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 204.724 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
-			(at 210.82 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "256127c4-1119-4267-bd63-024f683f9297")
-		)
-		(instances
-			(project "tps54202_inverting_breakout"
-				(path "/2cabf97a-8b70-40c7-9d97-7314d50ae0f3"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/94012ff5-5e55-42ff-bfc1-d0e6ccd3728b"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
