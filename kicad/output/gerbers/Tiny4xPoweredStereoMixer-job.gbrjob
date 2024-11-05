@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.1"
     },
-    "CreationDate": "2024-04-01T22:35:21+01:00"
+    "CreationDate": "2024-11-05T21:38:58+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Tiny4xPoweredStereoMixer",
       "GUID": "54696e79-3478-4506-9f77-657265645374",
-      "Revision": "B"
+      "Revision": "C"
     },
     "Size": {
-      "X": 99.16,
-      "Y": 56.615
+      "X": 84.1,
+      "Y": 67.3084
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -27,9 +27,9 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
