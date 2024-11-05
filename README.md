@@ -35,7 +35,7 @@ The old PSU design for Rev A/B can be found in [OLDPSU.md](OLDPSU.md).
 
 The negative voltage rail is generated from the positive rail using a [TPS54202](https://www.ti.com/lit/ds/symlink/tps54202.pdf) SMPS IC. This is normally a buck regulator. However, it can be configured to generate a negative voltage when pin 2 is clamped to ground, forcing pin 1 to a negative voltage.
 
-![](doc\design\TPS54202BuckBoostConverter.PNG)
+![](doc/design/TPS54202BuckBoostConverter.PNG)
 
 Further details can be found in the [SLVA933](https://www.ti.com/lit/an/slva933/slva933.pdf) app note
 
