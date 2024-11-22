@@ -74,5 +74,5 @@ I used a 4 layer board so I could have a layer per voltage rail. This makes rout
 
 ## Enclosure
 
-I abandoned the 3D printed enclosure idea and made the PCB to fit this [Hammond RM2005STBK](https://www.hammfg.com/part/RM2005STBK) clam shell enclosure.
+I abandoned the 3D printed enclosure idea and made the PCB to fit this [Hammond RM2005MTBK](https://www.hammfg.com/part/RM2005MTBK) clam shell enclosure.
 
