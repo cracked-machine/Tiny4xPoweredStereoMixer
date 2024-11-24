@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "RCAJack")(type "KiCad")(uri "${KIPRJMOD}/Footprints/RCAJack.pretty")(options "")(descr ""))
   (lib (name "Potentiometers")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Potentiometers.pretty")(options "")(descr ""))
+  (lib (name "SOT-23-THIN-14")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SOT-23-THIN-14.pretty")(options "")(descr ""))
 )
