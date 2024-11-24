@@ -1,0 +1,6 @@
+- [X] UPdate PSU to +/- 2.5v from +5V
+  - [X] Add LDO to get +2.5v
+  - [X] Use TPS54202 to get -2.5v
+- [X] Update 2 x TL072 to 1 x TL074 (SOT23-14)
+- [X] Add back panel DC barrel jack onto the PCB
+- [ ] Add front panel led push switch for power
