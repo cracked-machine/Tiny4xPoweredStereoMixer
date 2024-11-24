@@ -1086,7 +1086,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1103,7 +1103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1129,7 +1129,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1147,7 +1147,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1185,7 +1185,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1206,7 +1206,7 @@
 				)
 			)
 		)
-		(symbol "power:-5V"
+		(symbol "power:-12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1223,7 +1223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-5V"
+			(property "Value" "-12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1249,7 +1249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1267,7 +1267,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-5V_0_0"
+			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1287,7 +1287,7 @@
 					)
 				)
 			)
-			(symbol "-5V_0_1"
+			(symbol "-12V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -3508,72 +3508,6 @@
 		(uuid "d94bee2d-7038-48c3-b213-5a44305ccdd0")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "003bf034-4ac4-4374-b0c1-73ce223ea0da")
-		(property "Reference" "#PWR022"
-			(at 135.89 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b0bcfe4-10aa-4eef-bb84-3bf2a853c852")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 252.73 0)
 		(unit 1)
@@ -3730,138 +3664,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 233.68 267.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0852032e-da03-4141-b5a8-bd20b67b1346")
-		(property "Reference" "#PWR013"
-			(at 233.68 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 233.68 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 233.68 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef8048e5-2d4f-47d2-9cee-3edd9190e42b")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 218.44 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08716706-39bc-408c-b97d-f9d8cb1246e7")
-		(property "Reference" "#PWR07"
-			(at 218.44 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 218.44 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96cd3427-92ff-4e34-b4a2-2b2d005b3d6d")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4244,6 +4046,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 233.68 267.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f22ec23-8257-47f3-a424-961e171b6e36")
+		(property "Reference" "#PWR030"
+			(at 233.68 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 233.68 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 233.68 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2372f1a-dd33-44c7-8d36-7164c9c92162")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 280.67 101.6 90)
 		(unit 1)
@@ -4409,72 +4277,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 148.59 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2239e4d9-3b8b-4f51-a015-0c200c362abf")
-		(property "Reference" "#PWR09"
-			(at 148.59 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 148.59 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 148.59 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "985d19f1-8658-4d22-9ed1-ef3fdb6e0b8c")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5848,6 +5650,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 233.68 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b885aa-9e9a-4a22-b07c-d08476873c81")
+		(property "Reference" "#PWR022"
+			(at 233.68 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 233.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a229f69-b227-438f-b1f2-3d40742d2eec")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 104.14 173.99 0)
 		(mirror x)
@@ -6064,6 +5932,72 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 218.44 267.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61414468-bba6-4d66-8914-413096e019fb")
+		(property "Reference" "#PWR013"
+			(at 218.44 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 218.44 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d39aaa2-3e51-46a2-95ad-01c46e601681")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6298,72 +6232,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 218.44 267.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "694b37b4-807a-4eaa-baca-6870774dfa4a")
-		(property "Reference" "#PWR027"
-			(at 218.44 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 218.44 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 218.44 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab3c22ea-f4e4-41d2-b0b7-3ec54b772b91")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6787,6 +6655,72 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 135.89 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720ebfe0-21ab-4a9d-8300-88a97d119aff")
+		(property "Reference" "#PWR09"
+			(at 135.89 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 135.89 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 135.89 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457a7c28-d60c-4c62-ad20-b4bc7708f4cd")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8547,72 +8481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 233.68 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c99fc6de-5fe7-4453-981a-1956d70828e6")
-		(property "Reference" "#PWR08"
-			(at 233.68 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 233.68 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 233.68 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d51f37e-9a2d-4954-b1e8-c16406c5153a")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 199.39 0)
 		(unit 1)
@@ -8783,6 +8651,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 218.44 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14c1f18-f8c0-45a2-b4bd-1efa6dfae3c0")
+		(property "Reference" "#PWR012"
+			(at 218.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 218.44 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 218.44 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b50854c-8dc1-4674-969b-0715ccfe010f")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 194.31 81.28 90)
 		(unit 1)
@@ -8862,6 +8796,72 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 158.75 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9650705-23e7-4e45-9a7a-2c04d095d819")
+		(property "Reference" "#PWR038"
+			(at 158.75 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 158.75 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 158.75 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9be4c97-2b77-4952-b3b7-da65cc05827b")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9019,6 +9019,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 148.59 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd997bde-8590-47c6-abfc-ab196c318883")
+		(property "Reference" "#PWR011"
+			(at 148.59 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 148.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 148.59 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e64fb78-9625-4b8b-8db0-2adee161a241")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 125.73 252.73 0)
 		(unit 1)
@@ -9115,7 +9181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+12V")
 		(at 125.73 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9123,8 +9189,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3475845-43da-4f4b-abd9-63cbafcb14a5")
-		(property "Reference" "#PWR012"
+		(uuid "ded2107d-e6e9-43c5-abd5-77a4a998cea9")
+		(property "Reference" "#PWR035"
 			(at 125.73 246.38 0)
 			(effects
 				(font
@@ -9133,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 125.73 237.49 0)
 			(effects
 				(font
@@ -9159,7 +9225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 125.73 242.57 0)
 			(effects
 				(font
@@ -9169,12 +9235,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0595895-74fd-4e98-8454-a5ec555c913b")
+			(uuid "db8a8559-51ad-489f-906c-c1d3816d4b2e")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR012")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9376,72 +9442,6 @@
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
 					(reference "U2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 158.75 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f70c652f-8197-40d0-937a-e65f905e5ff5")
-		(property "Reference" "#PWR011"
-			(at 158.75 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 158.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 158.75 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a6370b4-3c8a-4daf-9463-c9dd9359de31")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598"
-					(reference "#PWR011")
-					(unit 1)
 				)
 			)
 		)
